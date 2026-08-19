@@ -517,7 +517,7 @@ public:
 {                                                                         \
   MariaDB_FUNCTION_PLUGIN, ItemClass::plugin_descriptor(), PluginName,     \
   "lefred", Description, PLUGIN_LICENSE_GPL, nullptr, nullptr, 0x0100,    \
-  nullptr, nullptr, "1.0", MariaDB_PLUGIN_MATURITY_EXPERIMENTAL           \
+  nullptr, nullptr, "0.2.0", MariaDB_PLUGIN_MATURITY_BETA           \
 }
 
 maria_declare_plugin(date_extra)
